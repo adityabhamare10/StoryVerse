@@ -63,4 +63,7 @@ dependencies {
     //RealTime Db
     implementation("com.google.firebase:firebase-database")
 
+    //RichEditor:- Writing Panel
+    implementation ("jp.wasabeef:richeditor-android:2.0.0")
+
 }

@@ -29,7 +29,6 @@ public class SignUpActivity extends AppCompatActivity {
 
     ActivitySignUpBinding binding;
     FirebaseAuth auth;
-
     FirebaseDatabase db;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -78,7 +77,6 @@ public class SignUpActivity extends AppCompatActivity {
 
                     }
                 });
-
             }
         });
 
@@ -89,9 +87,5 @@ public class SignUpActivity extends AppCompatActivity {
                 startActivity(i);
             }
         });
-
-
-
-
     }
 }

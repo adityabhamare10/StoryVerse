@@ -7,6 +7,10 @@
     <string name="title_add">Add</string>
     <string name="title_profile">Profile</string>
     <string name="title_search">Search</string>
+    <string name="bold">editBold</string>
+    <string name="italic">edititalic</string>
+    <string name="underline">editUnderline</string>
+    <string name="color">editcolor</string>
 
 
 </resources>
