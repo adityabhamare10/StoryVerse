@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "459614619631",
+    "project_id": "storyverse-10ef2",
+    "storage_bucket": "storyverse-10ef2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:459614619631:android:2b3117ab2bd46acfb0981a",
+        "android_client_info": {
+          "package_name": "com.aditya.storyverse"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDSd2L0HnE-Ghs5SSKLdlJKEEvY544wEE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

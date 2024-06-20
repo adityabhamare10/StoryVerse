@@ -15,6 +15,44 @@
         android:orientation="vertical"
         tools:context=".ui.add.AddFragment">
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginBottom="20dp">
+
+            <ImageButton
+                android:id="@+id/action_bold"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/ic_bold"
+                android:contentDescription="@string/bold" />
+
+            <ImageButton
+                android:id="@+id/action_italic"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/ic_italic"
+                android:contentDescription="@string/italic" />
+
+            <ImageButton
+                android:id="@+id/action_underline"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/ic_underline"
+                android:contentDescription="@string/underline" />
+
+            <ImageButton
+                android:id="@+id/action_color"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/ic_red_color"
+                android:contentDescription="@string/color" />
+
+            <!-- Add more buttons as needed -->
+        </LinearLayout>
+
         <ScrollView
             android:layout_width="match_parent"
             android:layout_height="0dp"
@@ -27,40 +65,5 @@
                 android:layout_height="wrap_content"
                 android:background="#FFF" />
         </ScrollView>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:gravity="center"
-            android:layout_marginBottom="70dp">
-
-            <ImageButton
-                android:id="@+id/action_bold"
-                android:layout_width="48dp"
-                android:layout_height="48dp"
-                android:src="@drawable/ic_brush"
-                android:contentDescription="@string/bold" />
-
-            <ImageButton
-                android:id="@+id/action_italic"
-                android:layout_width="48dp"
-                android:layout_height="48dp"
-                android:contentDescription="@string/italic" />
-
-            <ImageButton
-                android:id="@+id/action_underline"
-                android:layout_width="48dp"
-                android:layout_height="48dp"
-                android:contentDescription="@string/underline" />
-
-            <ImageButton
-                android:id="@+id/action_color"
-                android:layout_width="48dp"
-                android:layout_height="48dp"
-                android:contentDescription="@string/color" />
-
-            <!-- Add more buttons as needed -->
-        </LinearLayout>
     </LinearLayout>
 </layout>

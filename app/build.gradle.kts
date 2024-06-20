@@ -66,4 +66,10 @@ dependencies {
     //RichEditor:- Writing Panel
     implementation ("jp.wasabeef:richeditor-android:2.0.0")
 
+    //Circular ImageView
+    implementation ("de.hdodenhof:circleimageview:3.1.0")
+
+    //Dynamic Sizes
+//    implementation ("com.github.MrNouri:DynamicSizes:1.0")
+
 }
