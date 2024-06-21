@@ -72,4 +72,6 @@ dependencies {
     //Dynamic Sizes
 //    implementation ("com.github.MrNouri:DynamicSizes:1.0")
 
+    //Rounded ImageView
+    implementation ("com.makeramen:roundedimageview:2.3.0")
 }
